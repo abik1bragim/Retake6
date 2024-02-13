@@ -213,3 +213,52 @@ h5 {
 .copyright {
     width: 30%;
 }
+
+.signup {
+    width: 100%;
+}
+
+.signup-inner {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 30%;
+    height: 70%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.signup label {
+    margin-bottom: 10px;
+}
+
+.signup input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.signup h2 {
+    text-align: center;
+}
+
+.signup textarea {
+    resize: none;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.signup button {
+    padding: 20px 0;
+    cursor: pointer;
+    font-size: 17px;
+}
