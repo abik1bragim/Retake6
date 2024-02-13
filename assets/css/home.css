@@ -176,32 +176,34 @@ button {
     background-color: #4a627f;
     padding: 50px 0;
 
-    
+
     img {
         width: 30px;
         height: 30px;
     }
-    
+
     a {
         font-size: 16px;
         text-decoration: none;
         color: #000;
         margin-bottom: 10px;
     }
-    
+
     .final-content {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
-        
-        
+
+
     }
 }
+
 .final-inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .final-title {
     margin-bottom: 30px !important;
 }
@@ -210,6 +212,7 @@ h5 {
     font-size: 19px;
     margin-bottom: 20px;
 }
+
 .copyright {
     width: 30%;
 }

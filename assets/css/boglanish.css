@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 10%;
+}
+
+.navbar {
+    top: 0;
+    font-family: 'Andika', sans-serif;
+    padding: 10px 100px;
+    background-color: white;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: rgb(174, 158, 158);
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+form {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(247, 244, 244, 0.647) 0px 14px 28px, rgba(249, 244, 244, 0.555) 0px 10px 10px;
+    border-radius: 20px;
+    padding: 40px 10px;
+    border: 1px solid black;
+    background-color: #fff;
+}
+
+form input {
+    width: 80%;
+    height: 40px;
+    border: 1px solid black;
+    outline: none;
+    padding-left: 20px;
+    color: #fff;
+    background: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+form textarea {
+    width: 80%;
+    height: 200px;
+    border: 1px solid black;
+    outline: none;
+    color: #fff;
+    background: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+form button {
+    width: 80%;
+    height: 40px;
+    border: none;
+    background-color: #000;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+main>p {
+    margin-top: 50px;
+    color: #000;
+}
